@@ -28,6 +28,7 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    background-color: transparent;
 
   }
 
@@ -184,6 +185,7 @@ margin-top: 20px;   }
     height: 650px;
     width: 550px;
     margin-top: 50px;
+   
   }
 
   .word2{
@@ -298,7 +300,7 @@ margin-top: 20px;   }
   }
 
 
-  @media(max-width:668px){
+  @media(max-width:770px){
     header{
 
         background-image: none;
@@ -312,21 +314,47 @@ margin-top: 20px;   }
     }
      .word h1 {
         font-size: 70px;
+        text-align: center;
         
     }
 
     .word p {
         font-size: 25px;
+        text-align: center;
         
     }
+
+    .word button{
+    margin-left: 280px;
+    margin-block: 30px
+    }
     .image-ice{
-      
-        height: 400px;
-        width: 600px;
+   
+        height: 300px;
+        width: 550px;
+         margin: auto;
+    margin-top: 20px;
    
 
        
         
+    }
+  }
+
+
+  @media(max-width:680px){
+    .word button{
+    margin-left: 240px;
+    margin-block: 30px
+    }
+  }
+
+
+
+
+  @media (max-width:610px) {
+     .word button{
+     margin-left: 200px;
     }
   }
 
@@ -414,3 +442,50 @@ margin-top: 20px;   }
         margin-right: 5%;
     }
   }
+
+
+    
+  @media(max-width:520px){
+    .word button{
+    margin-left: 170px;
+    margin-block: 30px
+    }
+  }
+
+
+    @media(max-width:470px){
+    .word button{
+    margin-left: 140px;
+    margin-block: 30px
+    }
+
+    .word p{
+      font-size: 18px;
+    }
+  }
+
+
+     @media(max-width:426px){
+    .word button{
+    margin-left: 120px;
+    margin-block: 30px
+    }
+
+    .word p{
+      font-size: 15px;
+    }
+  }
+
+
+  @media(max-width:386px){
+    .word button{
+    margin-left: 100px;
+    margin-block: 30px
+    }
+
+    .word p{
+      font-size: 13px;
+    }
+  }
+
+
