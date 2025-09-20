@@ -7,8 +7,9 @@
 header{
     background-image: url(https://themewagon.github.io/Romyk/images/banner-bg.png);
     background-size:100%;
-    height: 600px;
+    height: 500px;
     background-repeat: no-repeat;
+    margin-bottom: 5%;
    
   }
 
@@ -115,7 +116,7 @@ header{
       background-color: #f2f2f2;
     }
 
-    /* Show the menu when checkbox is checked */
+   
     #menu-toggle:checked + label + ul {
       display: block;
     }
@@ -192,6 +193,10 @@ margin-top: 20px;   }
     width: 500px;
   }
 
+  .s4{
+    display: none;
+  }
+
 
 
   .word2 h1{
@@ -224,6 +229,13 @@ margin-top: 20px;   }
         color: rgb(255, 255, 255);
     }
 
+    .word h3{
+      margin-block: 30px;
+    }
+
+  
+
+
 
 
 
@@ -244,6 +256,10 @@ margin-top: 20px;   }
     .main{
         height: 400px;
     }
+
+    .main2{
+        height: 400px;
+    }
   }
 
   @media(max-width:1260px){
@@ -256,6 +272,14 @@ margin-top: 20px;   }
     .image-ice{
         height: 300px;
         width: 500px;
+    }
+
+    .image-ice2{
+        height: 500px;
+        width: 400px;
+    }
+    header{
+      margin-bottom: 15%;
     }
   }
 
@@ -274,6 +298,14 @@ margin-top: 20px;   }
     .image-ice{
         height: 270px;
         width: 440px;
+    }
+
+    .image-ice2{
+        height: 420px;
+        width: 350px;
+    }
+    header{
+      margin-bottom: 7%;
     }
   }
 
@@ -296,6 +328,18 @@ margin-top: 20px;   }
         height: 180px;
         width: 300px;
     }
+     .image-ice2{
+        height: 350px;
+        width: 300px;
+    }
+
+    .word h3{
+      font-size: 14px
+    }
+
+    header{
+      margin-bottom: -3%;
+    }
 
   }
 
@@ -308,8 +352,25 @@ margin-top: 20px;   }
     .main{
         display: block;
     }
+    .main2{
+        display: block;
+    }
+
+    .s3{
+      display: none;
+    }
+
+    .s4{
+      display: block;
+    }
     .word{
-        
+   
+        width: 100%;
+    }
+
+    .word2{
+   
+      margin-top: 90%;
         width: 100%;
     }
      .word h1 {
@@ -318,8 +379,16 @@ margin-top: 20px;   }
         
     }
 
+   
+
     .word p {
         font-size: 25px;
+        text-align: center;
+        
+    }
+
+     .word h3 {
+        font-size: 20px;
         text-align: center;
         
     }
@@ -334,10 +403,22 @@ margin-top: 20px;   }
         width: 550px;
          margin: auto;
     margin-top: 20px;
+    
+   }
+
+     .image-ice2{
+   
+        height: 350px;
+        width: 450px;
+         margin: auto;
+    margin-top: 20px;
    
 
        
         
+    }
+    header{
+      margin-bottom: 50%;
     }
   }
 
@@ -374,9 +455,16 @@ margin-top: 20px;   }
       
         height: 300px;
         width: 500px;
-   
+    }
 
-       
+     .image-ice2{
+      
+        height: 350px;
+        width: 350px;
+    }
+
+      .word h3 {
+        font-size: 15px;
         
     }
 
@@ -403,10 +491,12 @@ margin-top: 20px;   }
       
         height: 250px;
         width: 400px;
-   
+    }
 
-       
-        
+     .image-ice2{
+      
+        height: 340px;
+        width: 280px;
     }
 
     .menu-container{
@@ -414,6 +504,10 @@ margin-top: 20px;   }
     }
     .logo{
         margin-right: 10%;
+    }
+
+    header{
+      margin-bottom: 30%;
     }
   }
 
@@ -431,8 +525,19 @@ margin-top: 20px;   }
     }
     .image-ice{
       
-        height: 200px;
+        height: 180px;
         width: 350px;
+    }
+
+      .image-ice2{
+      
+        height: 280px;
+        width: 240px;
+    }
+
+     .word h3 {
+        font-size: 14px;
+        
     }
 
     .menu-container{
@@ -450,6 +555,14 @@ margin-top: 20px;   }
     margin-left: 170px;
     margin-block: 30px
     }
+
+    .word p{
+      font-size: 18px;
+    }
+
+    header{
+      margin-bottom: 45%;
+    }
   }
 
 
@@ -462,6 +575,7 @@ margin-top: 20px;   }
     .word p{
       font-size: 18px;
     }
+   
   }
 
 
@@ -473,6 +587,10 @@ margin-top: 20px;   }
 
     .word p{
       font-size: 15px;
+    }
+
+    header{
+      margin-bottom: 20%;
     }
   }
 
